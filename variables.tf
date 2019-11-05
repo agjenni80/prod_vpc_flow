@@ -1,7 +1,7 @@
 variable "aws_region" {
   description   = "S3 bucket region"
-  default       = "us-east-1"
   }
+
 variable "bucket_name_prefix" {
   description = "S3 bucket name"
   default = "hc-sec-flow-logs"
